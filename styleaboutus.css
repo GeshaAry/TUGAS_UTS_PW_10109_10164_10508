@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.stylenavbar{
+    background-color: #082032;
+    height: auto;
+}
+
+.gambarlogo{
+    width: 200px;
+    height: auto;
+}
+
+.colortextnav{
+    color: white !important;
+    text-decoration: none;
+}
+
+.container{
+    padding: 50px;
+}
+
+.kotakmember{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.tulisanabout{
+    font-size: 30px;
+    color: #082032;
+}
+
+.imagegesha{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.imagejessica{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.imageparamitha{
+    width: 300px;   
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.kotak_nama{
+    width: 200px;
+    height: 200px;
+    background-color: black ;
+    float: left;
+    margin-left: 20px;
+}
+
+.textkanan{
+    display:flex; 
+    justify-content:end;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("./assets/menu.svg");
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #082032;
+}
+
+.tulisanfooter{
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+}
+
+.tulisannama{
+    font-size: 20px;
+    color:  #082032;
+}
+
+@media screen and (max-width:768px) {
+    .penampung{
+       display: block;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+  .textkanan{
+      justify-content:center !important;
+  }
+
+} 
+

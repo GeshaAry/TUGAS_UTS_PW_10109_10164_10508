@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.kotak_gambar{
+    width: 500px;
+    height: 20vh;
+    background-color: brown;
+    float: left;
+}
+
